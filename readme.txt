@@ -1,30 +1,35 @@
 /*
 Plugin Name: ESV Bible Shortcode for WordPress
-Plugin URI: http://calebzahnd.com/esv
-Description: This plugin uses the ESV Bible Web Service API to provide an easy way to display scripture in the ESV translation on a WordPress installation. Using a WordPress shortcode, you can quickly display lengthy passages or single verses in your WordPress posts.
+Plugin URI: http://wordpress.org/extend/plugins/esv-bible-shortcode-for-wordpress/
+Author URI: http://calebzahnd.com
+Description: This plugin uses the ESV Bible Web Service API to provide an easy way to display scripture in the ESV translation using WordPress shortcodes.
 Author: Caleb Zahnd
+Contributors: calebzahnd
+Tags: shortcode, Bible, church, English Standard Version, scripture
 Version: 1.0
-Author URI: http://calebzahnd.com/
+Requires at least: 2.5
+Tested up to: 3.3.1
+Stable tag: 1.0.1
 */
 
+== Description ==
 
-== DESCRIPTION ==
 This plugin uses the ESV Bible Web Service API to provide an easy way to display scripture in the ESV translation on a WordPress installation. Using WordPress shortcodes, you can quickly display lengthy passages or single verses in your WordPress posts.
 
 
+== Installation ==
 
-== INSTALLATION ==
 The plugin is simple to install:
 
-1. Download 'esv-shortcode.zip'
+1. Download 'esv-bible-shortcode-for-wordpress.zip'
 2. Unzip
 3. Upload 'esv-shortcode' directory to your '/wp-content/plugins' directory
 4. Go to the plugin management page and enable the plugin
 5. Done!
 
 
+== Usage ==
 
-== USAGE ==
 The simplest usage of the plugin to insert the '[esv]' shortcode into your page or post, using the attributes listed below. These attributes pretty much mirror those on the ESV API.
 
 [esv scripture='John 3:16-21']
@@ -32,8 +37,7 @@ The simplest usage of the plugin to insert the '[esv]' shortcode into your page 
 * NOTE: For reasons that should be obvious, the scripture attribute is required, (and is the only required attribute.)
 
 
-
-== OPTIONAL ATTRIBUTES ==
+**Optional Attributes**
 'container' // Default: 'span'.
 The html tag to wrap your scripture in.
 
