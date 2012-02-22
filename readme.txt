@@ -1,15 +1,15 @@
-=== Plugin Name ===
-Plugin Name: ESV Bible Shortcode for WordPress
+=== ESV Bible Shortcode for WordPress ===
 Plugin URI: http://wordpress.org/extend/plugins/esv-bible-shortcode-for-wordpress/
 Author URI: http://calebzahnd.com
 Description: This plugin uses the ESV Bible Web Service API to provide an easy way to display scripture in the ESV translation using WordPress shortcodes.
 Author: Caleb Zahnd
 Contributors: calebzahnd
 Tags: shortcode, Bible, church, English Standard Version, scripture
-Version: 1.0
+Version: 1.0.2
 Requires at least: 2.5
 Tested up to: 3.3.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
+*/
 
 == Description ==
 
@@ -36,7 +36,8 @@ The simplest usage of the plugin to insert the '[esv]' shortcode into your page 
 * NOTE: For reasons that should be obvious, the scripture attribute is required, (and is the only required attribute.)
 
 
-**Optional Attributes**
+**Optional Attributes:**
+
 'container' // Default: 'span'.
 The html tag to wrap your scripture in.
 
