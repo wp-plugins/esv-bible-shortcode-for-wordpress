@@ -10,6 +10,8 @@ Requires at least: 2.5
 Tested up to: 3.3.1
 Stable tag: 1.0.2
 
+This plugin uses the ESV Bible Web Service API to provide an easy way to display scripture in the ESV translation using WordPress shortcodes.
+
 == Description ==
 
 This plugin uses the ESV Bible Web Service API to provide an easy way to display scripture in the ESV translation on a WordPress installation. Using WordPress shortcodes, you can quickly display lengthy passages or single verses in your WordPress posts.
