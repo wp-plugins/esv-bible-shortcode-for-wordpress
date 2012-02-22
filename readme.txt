@@ -1,4 +1,4 @@
-/*
+=== Plugin Name ===
 Plugin Name: ESV Bible Shortcode for WordPress
 Plugin URI: http://wordpress.org/extend/plugins/esv-bible-shortcode-for-wordpress/
 Author URI: http://calebzahnd.com
@@ -10,7 +10,6 @@ Version: 1.0
 Requires at least: 2.5
 Tested up to: 3.3.1
 Stable tag: 1.0.1
-*/
 
 == Description ==
 
